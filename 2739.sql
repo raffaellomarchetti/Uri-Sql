@@ -1,0 +1,1 @@
+select name, cast(DATE_PART('day', payday) as integer)from loan

@@ -1,0 +1,1 @@
+select name, street from customers where city in (select city from customers where city like 'Porto Alegre')
